@@ -1,0 +1,41 @@
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fullHeight {
+    height: 100%;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventWork {
+    pointer-events: auto;
+}
+
+.titleBackground {
+    height: 30px;
+    line-height: 30px;
+    flex-shrink: 0;
+    background-image: url(@/assets/title.png);
+    background-size: 100% 100%;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: PingFangSC-Medium;
+}
+
+.mainBackground {
+    border-radius: 5px;
+    background: #02063A;
+
+    box-sizing: border-box;
+    border: 2px solid ;
+    border-image: radial-gradient(15% 30% at 49% 99%, #29CFFF 0%, #29CFFF 1%, #A3E9FD 43%, #197BF8 63%, rgba(25,123,248,0.00) 94%) 2;
+    
+    /* 111 */
+    box-shadow: inset 0px 0px 40px 0px #1B7EF2;
+}
